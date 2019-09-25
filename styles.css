@@ -1,0 +1,29 @@
+ .component-image-show {
+            width: 500px;
+            position: relative;
+            overflow: hidden;
+            border: 0.5px dashed coral;
+        }
+
+        .component-image-show .large-preview {
+            height: 450px;
+            width: 100%;
+        }
+
+        .component-image-show .thumb-image-wrapper {
+            height: 80px;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+        }
+
+        .component-image-show .thumb-image-wrapper .thumb {
+            width: 120px;
+            height: 100%;
+        }
+
+        .component-image-show .thumb-image-wrapper .thumb img {
+            width: 100%;
+            height: 100%;
+        }
